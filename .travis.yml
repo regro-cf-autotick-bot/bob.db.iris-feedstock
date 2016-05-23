@@ -4,6 +4,11 @@
 language: objective-c
 
 env:
+  matrix:
+    
+    - CONDA_PY=27
+    - CONDA_PY=34
+    - CONDA_PY=35
   global:
     # The BINSTAR_TOKEN secure variable. This is defined canonically in conda-forge.yml.
     - secure: "olJ9tUVwTb/qhxfqZ4v8DEPM4okmTRJbp4WnCBhOPo032mLJXaHJBH94TglD0bkaLUfdoVBlhe6JY9xHaCuwLMJsANjsmHFC5y8Fhk28P1i50dVoIxNj+uQ1r634K4RJ5DL4pPQyVRll9j6eL/zi3hu1w4xvCIyMIA7XOH/MIV/ZVVRH1YOj16u9Aiu95XktIOJcTHHKdOYhrjv2zLtaqGgFup0MCwudRBxKzlTr1bwyHyDQ63O+neNvwFIYDw/W1MTuY91ZBZVzY3baBjoSgn69JTZfnar2rT1BwVzhik2DLKZ/Xs47hGqyQl0x0CS+Ay3Hxfg1pVQJx9NVDp1rxgzhxCulqNKFryJUXzzezJdkULKBmFKHyJNtJL1b/iD9Psw6Do4FCwlROZY8wekKWeQ7RpZxVGfLp9g2rCR2xXQ/B8Jy7WFB6jnEDPJRuKJD/LYeihG8CuVvTZM6j//TAJm0n4PWSeWk4iaSIHimiYo33JqGUfSKE/6BFutGSwJLElQrsyHB43tg7AqKlmQYTR9PH89f0x6d41d7YaV3wC70wEIxFRvDVMXWLNRgNaNMYIxxwQ1HqXshYd3/RHe/egH/7931MvTmH6cBzik8Fn5EaxqWlRR3YqT5IBnk5vPKWwIn+e11s0QQzPlZSlwsm9BA/P8SO6UCbpAn6z9OWIE="
