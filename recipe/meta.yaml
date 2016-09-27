@@ -1,4 +1,4 @@
-{% set version = "2.0.4" %}
+{% set version = "2.0.6" %}
 
 package:
   name: bob.db.iris
@@ -6,8 +6,8 @@ package:
 
 source:
   fn: bob.db.iris-{{ version }}.zip
-  md5: bf1d728a6f07429829f043ad4b8a42fe
-  url: https://pypi.python.org/packages/source/b/bob.db.iris/bob.db.iris-{{ version }}.zip
+  md5: 4e774b631fc0c86e6111da7f0fcdb468
+  url: https://pypi.io/packages/source/b/bob.db.iris/bob.db.iris-{{ version }}.zip
 
 build:
   entry_points:
@@ -49,7 +49,7 @@ test:
     - nose
 
 about:
-  home: http://github.com/bioidiap/bob.db.iris
+  home: https://www.idiap.ch/software/bob/
   license: Modified BSD License (3-clause)
   summary: Bob access API for Fisher's Iris Flower Dataset
 
