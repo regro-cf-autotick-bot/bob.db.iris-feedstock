@@ -1,4 +1,4 @@
-{% set version = "2.0.7" %}
+{% set version = "2.1.1" %}
 
 package:
   name: bob.db.iris
@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.db.iris-{{ version }}.zip
-  md5: 392584d087ffa2f58cbfe89e641d6f2a
+  md5: f34ac91a153f1c3abd48aaf1fa980ba1
   url: https://pypi.io/packages/source/b/bob.db.iris/bob.db.iris-{{ version }}.zip
 
 build:
